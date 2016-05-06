@@ -1,7 +1,7 @@
 # AlGobra -- yet another implementation of algebraic specification in go
 
------------- | -------------
-[![Build Status](https://travis-ci.org/paincompiler/alGobra.svg?branch=master)](https://travis-ci.org/paincompiler/alGobra) | [![codecov](https://codecov.io/gh/paincompiler/alGobra/branch/master/graph/badge.svg)](https://codecov.io/gh/paincompiler/alGobra)
+[![Build Status](https://travis-ci.org/paincompiler/alGobra.svg?branch=master)](https://travis-ci.org/paincompiler/alGobra)
+[![codecov](https://codecov.io/gh/paincompiler/alGobra/branch/master/graph/badge.svg)](https://codecov.io/gh/paincompiler/alGobra)
 
 ## Usage
 
