@@ -43,7 +43,7 @@ var (
 
 func TestAlgobra(t *testing.T) {
 
-	if fmt.Sprint(strSliceMondad{"A", "B"}.Do(repeatDouble).Do(repeatTriple)) != "[BBBBBB CCCCCC]" {
+	if fmt.Sprint(strSliceMondad{"A", "B"}.Do(repeatDouble).Do(repeatTriple)) != "[AAAAAA BBBBBB]" {
 		t.Error("String slice chain failed")
 	}
 
@@ -51,7 +51,7 @@ func TestAlgobra(t *testing.T) {
 		t.Error("Nil string slice in chain failed")
 	}
 
-	if fmt.Sprint(Some("E").Do(repeatDouble).Do(repeatTriple)) != "Some(AAAAAA)" {
+	if fmt.Sprint(Some("E").Do(repeatDouble).Do(repeatTriple)) != "Some(EEEEEE)" {
 		t.Error("Some chain failed")
 	}
 
